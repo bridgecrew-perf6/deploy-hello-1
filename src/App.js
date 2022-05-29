@@ -29,3 +29,8 @@ export default App;
 
 // 6 npm run deploy
 // https://huudinh.github.io/deploy-hello
+
+// 7 deploy again
+// a. run add . / commit / push
+// b. npm run build
+// c. npm run deploy
