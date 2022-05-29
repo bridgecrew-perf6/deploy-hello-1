@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      Hello world <br />
+      Welcome react
     </div>
   );
 }
 
 export default App;
+
+// 1 npm run build
+// 2 create new repo deploy-hello 
+// 3 npm install -D gh-pages
+// 4 package.json 
+// a. add "homepage": "https://{username}.github.io/{repo-name}",
+
+// b. add deploy và predeploy in "scripts"
+// "predeploy": "npm run build", // Build before deploy
+// "deploy": "gh-pages -d build" // Deploy the "build" folder
+
+// 5 Setup Github Repo
+// git init
+// git add .
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/huudinh/deploy-hello.git
+// git push -u origin main
