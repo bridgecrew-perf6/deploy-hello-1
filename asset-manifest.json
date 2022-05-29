@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/deploy-hello/static/js/main.f6f98414.js",
+    "index.html": "/deploy-hello/index.html",
+    "main.f6f98414.js.map": "/deploy-hello/static/js/main.f6f98414.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f6f98414.js"
+  ]
+}
