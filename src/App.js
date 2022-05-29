@@ -2,7 +2,7 @@ function App() {
   return (
     <div>
       Hello world <br />
-      Welcome react
+      Welcome react 2022
     </div>
   );
 }
